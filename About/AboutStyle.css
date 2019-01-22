@@ -1,0 +1,260 @@
+body{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 10%;
+	/*margin-right: 7.5%;*/
+}
+
+.Parent {
+	/*padding-right: 7.5%;*/
+}
+
+
+.Name {
+	position: absolute;
+	left: 10%;
+	top: 5%;
+	font-family: hypatia-sans-pro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 30pt;
+}
+
+.Menu {
+	/*margin-right: 7.5%;*/
+	position: absolute;
+	left: 80%;
+	top:11%;
+}
+
+.menuList {
+
+	list-style-type: none;
+	position: absolute;
+	padding: 25% 17%;
+	font-family: futura-pt, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14pt;
+	display: flex;
+	flex-direction: row;
+
+}
+
+li {
+		margin: 9%;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color:rgb(255,87,69);
+  text-decoration: underline;
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* selected link */
+a:active {
+  color: rgb(255,87,69);
+  text-decoration: underline;
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+.Name a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.Name a:visited {
+	color: black;
+}
+
+/* mouse over link */
+.Name a:hover {
+  color:rgb(255,87,69);
+  text-decoration: underline;
+  font-family: hypatia-sans-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* selected link */
+.Name a:active {
+  color: rgb(255,87,69);
+  text-decoration: underline;
+  font-family: hypatia-sans-pro, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+@media screen and (max-width: 500px) {
+	ul.menuList{
+	display: flex;
+	flex-direction: column;
+	padding-right: 7%;
+	}
+
+/*	.footer{
+		visibility: hidden;
+	}
+
+	hr {
+		visibility: hidden;
+	}*/
+
+	.port {
+		visibility:hidden;
+	}
+
+	.intro {
+		visibility: hidden;
+	}
+
+	.portMobile {
+		visibility: visible;
+		position: absolute;
+		top: 30%;
+		left: auto;
+	}
+
+	#portraitMobile {
+		width: 80%;
+		height: auto;
+	}
+
+	.introMobile{
+		visibility: visible;
+		position: absolute;
+		top: 54%;
+		left: auto;
+	}
+
+	.introMobile p{
+		width: 80%;
+	}
+}
+
+
+
+@media screen and (min-width:500px) {
+	.portMobile{
+		visibility: hidden;
+	}
+	.introMobile{
+		visibility: hidden;
+	}
+}
+
+
+.port {
+	position: absolute;
+	left: 51%;
+	top: 36%;
+}
+
+#portrait{
+	width: 90%;
+	height: auto;
+}
+
+/*.footer{
+	position: absolute;
+	bottom: 0;
+	margin-top: 11%;
+	font-family: futura-pt, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 12pt;
+}
+
+hr {
+	position: absolute;
+	top: 121%;
+	margin-top: 94%;
+	width: 78%;
+	margin-right: 12%;
+	border-width: 0.5px;
+}*/
+
+.intro {
+	position: absolute;
+	top: 27%;
+	font-family: futura-pt, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 14pt;
+
+}
+
+
+.introMobile{
+	font-family: futura-pt, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 14pt;
+}
+
+.intro p {
+	text-indent: 5%;
+	width: 40%;
+}
+
+.introMobile p {
+	text-indent: 5%;
+}
+
+
+#head {
+	font-family: futura-pt, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 23px;
+}
+
+#email {
+	font-size: 12pt;
+	text-indent: 0%;
+}
+
+#email a{
+	text-decoration: underline;
+}
+
+#emailM {
+	font-size: 12pt;
+	text-indent: 0%;
+}
+
+#emailM a{
+	text-decoration: underline;
+}
+#res {
+	font-size: 12pt;
+	text-indent: 0%;
+}
+
+#res a{
+	text-decoration: underline;
+}
+#resM {
+	font-size: 12pt;
+	text-indent: 0%;
+}
+
+#resM a{
+	text-decoration: underline;
+}
