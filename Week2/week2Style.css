@@ -1,4 +1,4 @@
-ody{
+body{
 	margin-top: 1%;
 	margin-bottom: 1%;
 	margin-left: 10%;
@@ -109,4 +109,70 @@ a:active {
 	flex-direction: column;
 	padding-right: 7%;
 	}
+}
+
+
+.Main{
+	position: absolute;
+	top: 27%;
+	font-family: futura-pt, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 14pt;
+	margin-bottom: 5%;
+}
+
+#Week2 {
+	font-family: futura-pt, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 23px;
+}
+
+.Main p {
+	text-indent: 5%;
+}
+
+#pic1 {
+
+	position: absolute;
+
+	left: 40%;
+}
+
+
+#pic2 {
+	position: absolute;
+
+	left: 320%;
+}
+
+#ethop1{
+	width: 180%;
+}
+
+#ethop2 {
+	text-indent: 5%;
+	width: 180%;
+	position: absolute;
+	top: 350%;
+}
+
+#pic3 {
+	position: absolute;
+	top: 380%;
+	left: 40%;
+}
+
+.Conclusion {
+	width: 480%;
+	text-indent: 5%;
+	position: absolute;
+	top: 557%;
+	left: 40%;
+}
+
+#Links {
+	text-indent: 0%;
+	margin-bottom: 10%;
 }
