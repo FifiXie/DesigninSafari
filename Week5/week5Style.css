@@ -130,9 +130,10 @@ a:active {
 }
 
 .Main p {
-	width: 85%;
+	width: 68%;
 	text-indent: 5%;
-	margin: 2%;
+	margin-top: 2%;
+	margin-left: 10%;
 }
 
 .Main img {

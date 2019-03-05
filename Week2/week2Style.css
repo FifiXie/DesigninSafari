@@ -148,12 +148,12 @@ a:active {
 }
 
 #ethop1{
-	width: 180%;
+	width: 150%;
 }
 
 #ethop2 {
 	text-indent: 5%;
-	width: 180%;
+	width: 150%;
 	position: absolute;
 	top: 350%;
 }
@@ -165,7 +165,7 @@ a:active {
 }
 
 .Conclusion {
-	width: 480%;
+	width: 420%;
 	text-indent: 5%;
 	position: absolute;
 	top: 557%;
