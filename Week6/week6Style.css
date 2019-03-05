@@ -130,10 +130,10 @@ a:active {
 }
 
 .Main p{
-	width: 68%;
+	width: 63%;
 	text-indent: 5%;
 	margin-top: 2%;
-	margin-left: 10%;
+	margin-left: 12%;
 }
 
 .main h4{
@@ -144,7 +144,7 @@ a:active {
 .Main img {
 	width: 54%;
 	height: auto;
-	margin-left: 15%;
+	margin-left: 17%;
 }
 
 #cotton{
@@ -158,12 +158,9 @@ a:active {
 	margin-bottom: 10%;
 }
 
-#Reference {
-	font-size: 12pt;
-	width: 80%;
-	text-indent: 0%;
-/*	margin: 2%;*/
-	margin-bottom: 10%;
+.title {
+	font-size: 18pt;
+	margin-left: 8%;
 }
 
 .video {
