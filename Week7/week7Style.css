@@ -168,3 +168,18 @@ a:active {
 	margin-left: 13%;
 }
 
+.note{
+	font-size: 10pt;
+}
+
+#sketch{
+	width: 63%;
+	height: auto;
+	margin-left: 12%;
+}
+
+#map{
+	width: 67%;
+	height: auto;
+	margin-left: 11%;
+}
