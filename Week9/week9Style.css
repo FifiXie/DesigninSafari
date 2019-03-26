@@ -1,0 +1,191 @@
+body{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 10%;
+	/*margin-right: 7.5%;*/
+}
+
+.Parent {
+	/*padding-right: 7.5%;*/
+}
+
+
+.Name {
+	position: absolute;
+	left: 10%;
+	top: 5%;
+	font-family: hypatia-sans-pro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 30pt;
+}
+
+.Menu {
+	/*margin-right: 7.5%;*/
+	position: absolute;
+	left: 80%;
+	top:11%;
+}
+
+.menuList {
+
+	list-style-type: none;
+	position: absolute;
+	padding: 25% 17%;
+	font-family: futura-pt, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14pt;
+	display: flex;
+	flex-direction: row;
+
+}
+
+li {
+		margin: 9%;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a:visited {
+	color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color:rgb(255,87,69);
+  text-decoration: underline;
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* selected link */
+a:active {
+  color: rgb(255,87,69);
+  text-decoration: underline;
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+
+.Name a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.Name a:visited {
+	color: black;
+}
+
+/* mouse over link */
+.Name a:hover {
+  color:rgb(255,87,69);
+  text-decoration: underline;
+  font-family: hypatia-sans-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* selected link */
+.Name a:active {
+  color: rgb(255,87,69);
+  text-decoration: underline;
+  font-family: hypatia-sans-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+@media screen and (max-width: 500px) {
+	ul.menuList{
+	display: flex;
+	flex-direction: column;
+	padding-right: 7%;
+	}
+}
+
+
+.Main{
+	position: absolute;
+	top: 27%;
+	font-family: futura-pt, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 14pt;
+	margin-bottom: 5%;
+}
+
+#Week6 {
+	font-family: futura-pt, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 23px;
+}
+
+.Main p{
+	width: 63%;
+	text-indent: 5%;
+	margin-top: 2%;
+	margin-left: 12%;
+}
+
+.main h4{
+	text-indent: 5%;
+	margin-left: 10%;
+}
+
+.Main img {
+	width: 54%;
+	height: auto;
+	margin-left: 17%;
+}
+
+#cotton{
+	width: 69%;
+	height: auto;
+	margin-left: 10%;
+}
+
+#Links {
+	text-indent: 0%;
+	margin-bottom: 10%;
+}
+
+.title {
+	font-size: 18pt;
+	margin-left: 8%;
+}
+.video{
+	margin-left: 7%;
+}
+
+.note{
+	font-size: 12pt;
+}
+
+#sketch{
+	width: 63%;
+	height: auto;
+	margin-left: 12%;
+}
+
+#map{
+	width: 67%;
+	height: auto;
+	margin-left: 11%;
+}
+
+.door1{
+	margin-left: 11%;
+}
+.ref{
+	font-size: 9pt;
+}
